@@ -77,7 +77,7 @@ img::-moz-selection {
   background: transparent; }
 
 .masthead .intro-text {
-  color: black;
+  text-shadow: 1px 1px 3px black;
 }
 
 #mainNav {
@@ -101,7 +101,8 @@ img::-moz-selection {
     font-weight: 400;
     padding: 0.75em 0;
     letter-spacing: 1px;
-    color: #99AFDF;
+    color: #EFF;
+    text-shadow: 1px 1px 3px black;
     font-weight: bold;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
