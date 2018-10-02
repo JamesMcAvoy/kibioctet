@@ -1,0 +1,36 @@
+brand:
+  name: <img src="assets/img/logos/kibioctet.png" class="logo-header" />
+menu-string: Menu
+
+nav:
+  - title: Services
+    url: '#services'
+  - title: Portfolio
+    url: '#portfolio'
+  - title: À propos
+    url: '#about'
+  - title: Équipe
+    url: '#team'
+  - title: Contact
+    url: '#contact'
+
+copyright: Copyright 2018
+
+social-buttons:
+  - icon: fa fa-twitter
+    url: '#'
+  - icon: fa fa-facebook
+    url: '#'
+  - icon: fa fa-linkedin
+    url: '#'
+
+quicklinks:
+  - title: CGU
+    url: '#'
+
+modal:
+  date-string: 'Date: '
+  client-string: 'Client: '
+  category-string: 'Category: '
+  close-icon: 'fa fa-times'
+close-string: 'Close Project'

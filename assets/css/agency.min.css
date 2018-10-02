@@ -11,12 +11,12 @@ p {
   line-height: 1.75; }
 
 a {
-  color: #fed136; }
+  color: #2E2A51; }
   a:hover {
-    color: #fec503; }
+    color: #C75756; }
 
 .text-primary {
-  color: #fed136 !important; }
+  color: #2E2A51 !important; }
 
 h1,
 h2,
@@ -53,21 +53,21 @@ section {
   padding: 20px 40px; }
 
 .btn-primary {
-  background-color: #fed136;
-  border-color: #fed136; }
+  background-color: #2E2A51;
+  border-color: #2E2A51; }
   .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-    background-color: #fec810 !important;
-    border-color: #fec810 !important;
+    background-color: #C75756 !important;
+    border-color: #C75756 !important;
     color: white; }
   .btn-primary:active, .btn-primary:focus {
-    box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important; }
+    box-shadow: 0 0 0 0.2rem rgba(216, 107, 99, 0.5) !important; }
 
 ::-moz-selection {
-  background: #fed136;
+  background: #2E2A51;
   text-shadow: none; }
 
 ::selection {
-  background: #fed136;
+  background: #2E2A51;
   text-shadow: none; }
 
 img::selection {
@@ -76,8 +76,12 @@ img::selection {
 img::-moz-selection {
   background: transparent; }
 
+.masthead .intro-text {
+  color: black;
+}
+
 #mainNav {
-  background-color: #212529; }
+  background-color: #2e343a; }
   #mainNav .navbar-toggler {
     font-size: 12px;
     right: 0;
@@ -85,22 +89,23 @@ img::-moz-selection {
     text-transform: uppercase;
     color: white;
     border: 0;
-    background-color: #fed136;
+    background-color: #2E2A51;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
   #mainNav .navbar-brand {
-    color: #fed136;
+    color: #2E2A51;
     font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive; }
     #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-      color: #fec503; }
+      color: #C75756; }
   #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 90%;
     font-weight: 400;
     padding: 0.75em 0;
     letter-spacing: 1px;
-    color: white;
+    color: #99AFDF;
+    font-weight: bold;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-      color: #fed136; }
+      color: #C75756; }
 
 @media (min-width: 992px) {
   #mainNav {
@@ -121,7 +126,7 @@ img::-moz-selection {
     #mainNav.navbar-shrink {
       padding-top: 0;
       padding-bottom: 0;
-      background-color: #212529; }
+      background-color: #2e343a; }
       #mainNav.navbar-shrink .navbar-brand {
         font-size: 1.25em;
         padding: 12px 0; } }
@@ -271,7 +276,7 @@ header.masthead {
       -webkit-transform: rotate(45deg);
       -ms-transform: rotate(45deg);
       transform: rotate(45deg);
-      background-color: #212529; }
+      background-color: #2e343a; }
       .portfolio-modal .close-modal .lr .rl {
         /* Safari and Chrome */
         z-index: 1052;
@@ -281,7 +286,7 @@ header.masthead {
         -webkit-transform: rotate(90deg);
         -ms-transform: rotate(90deg);
         transform: rotate(90deg);
-        background-color: #212529; }
+        background-color: #2e343a; }
 
 .timeline {
   position: relative;
@@ -332,7 +337,7 @@ header.masthead {
       color: white;
       border: 7px solid #e9ecef;
       border-radius: 100%;
-      background-color: #fed136; }
+      background-color: #2E2A51; }
       .timeline > li .timeline-image h4 {
         font-size: 10px;
         line-height: 14px;
@@ -429,7 +434,7 @@ header.masthead {
     margin-top: 0; }
 
 section#contact {
-  background-color: #212529;
+  background-color: #2e343a;
   background-image: url("../img/map-image.png");
   background-repeat: no-repeat;
   background-position: center; }
@@ -445,7 +450,7 @@ section#contact {
     section#contact .form-group textarea.form-control {
       height: 248px; }
   section#contact .form-control:focus {
-    border-color: #fed136;
+    border-color: #2E2A51;
     box-shadow: none; }
   section#contact ::-webkit-input-placeholder {
     font-weight: 700;
@@ -495,6 +500,10 @@ ul.social-buttons {
     color: white;
     border-radius: 100%;
     outline: none;
-    background-color: #212529; }
+    background-color: #2e343a; }
     ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-      background-color: #fed136; }
+      background-color: #2E2A51; }
+
+.logo-header {
+  width: 150px;
+}
