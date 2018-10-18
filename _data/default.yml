@@ -1,20 +1,20 @@
 brand:
-  name: <img src="assets/img/logos/kibioctet.png" class="logo-header" />
+  name: <img src="/assets/img/logos/kibioctet.png" class="logo-header" />
 menu-string: Menu
 
 nav:
   - title: Services
-    url: '#services'
+    url: '/#services'
   - title: Portfolio
-    url: '#portfolio'
+    url: '/#portfolio'
   - title: À propos
-    url: '#about'
+    url: '/#about'
   - title: Équipe
-    url: '#team'
+    url: '/#team'
   - title: Contact
-    url: '#contact'
+    url: '/#contact'
 
-copyright: Copyright 2018
+copyright: © 2018
 
 social-buttons:
   - icon: fa fa-twitter
@@ -26,7 +26,7 @@ social-buttons:
 
 quicklinks:
   - title: CGU
-    url: '#'
+    url: '/cgu/'
 
 modal:
   date-string: 'Date: '

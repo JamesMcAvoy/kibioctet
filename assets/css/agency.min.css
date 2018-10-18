@@ -13,7 +13,7 @@ p {
 a {
   color: #2E2A51; }
   a:hover {
-    color: #C75756; }
+    color: #9F2020; }
 
 .text-primary {
   color: #2E2A51 !important; }
@@ -56,18 +56,18 @@ section {
   background-color: #2E2A51;
   border-color: #2E2A51; }
   .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-    background-color: #C75756 !important;
-    border-color: #C75756 !important;
+    background-color: #9F2020 !important;
+    border-color: #9F2020 !important;
     color: white; }
   .btn-primary:active, .btn-primary:focus {
     box-shadow: 0 0 0 0.2rem rgba(216, 107, 99, 0.5) !important; }
 
 ::-moz-selection {
-  background: #2E2A51;
+  background: #3E3A61;
   text-shadow: none; }
 
 ::selection {
-  background: #2E2A51;
+  background: #3E3A61;
   text-shadow: none; }
 
 img::selection {
@@ -95,7 +95,7 @@ img::-moz-selection {
     color: #2E2A51;
     font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive; }
     #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-      color: #C75756; }
+      color: #9F2020; }
   #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 90%;
     font-weight: 400;
@@ -106,7 +106,7 @@ img::-moz-selection {
     font-weight: bold;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-      color: #C75756; }
+      color: #9F2020; }
 
 @media (min-width: 992px) {
   #mainNav {
@@ -507,4 +507,15 @@ ul.social-buttons {
 
 .logo-header {
   width: 150px;
+}
+
+.background-gray {
+  background-color: #2e343a;
+}
+
+.title-error {
+  margin: 30px 0;
+  font-size: 4em;
+  line-height: 1;
+  letter-spacing: -1px;
 }

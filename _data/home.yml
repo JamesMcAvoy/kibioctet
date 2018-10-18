@@ -1,7 +1,7 @@
 intro:
-  lead-in: "Kibioctet"
+  lead-in: "Agence Kibioctet"
   heading: Développement de site web
-  btn: Lorem
+  btn: En savoir +
 
 services:
   heading: Services
@@ -86,29 +86,21 @@ team:
   text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
 
 clients:
-  - img: img/logos/envato.jpg
-    url: "#"
-  - img: img/logos/designmodo.jpg
-    url: "#"
-  - img: img/logos/themeforest.jpg
-    url: "#"
-  - img: img/logos/creative-market.jpg
-    url: "#"
 
 contact:
-  heading: Contact Us
-  subheading: Lorem ipsum dolor sit amet consectetur.
-  name: Your Name *
-  name-required: Please enter your name.
-  email: Your Email *
-  email-required: Please enter your email address.
-  phone: Your Phone *
-  phone-required: Please enter your phone number.
-  message: Your Message *
-  message-required: Please enter a message.
-  btn: Send Message
+  heading: Nous contacter
+  subheading: Intéressé ? Besoin de réponses ? Un formulaire de contact est disponible ci-dessous
+  name: Votre nom*
+  name-required: Rentrez votre nom.
+  email: Votre courriel*
+  email-required: Rentrez votre courriel.
+  phone: Votre numéro de téléphone*
+  phone-required: Rentrez votre numéro de téléphone.
+  message: Votre message*
+  message-required: Détaillez votre message.
+  btn: Envoyer le message
 
   js-url: '././mail/contact_me.php'
-  js-success: 'Your message has been sent. '
-  js-error: 'Sorry " + firstName + ", it seems that my mail server is not responding. Please try again later!'
-js-error-min: 'Sorry "+i+", it seems that my mail server is not responding. Please try again later!'
+  js-success: 'Votre message a bien été envoyé. '
+  js-error: 'Désolé " + firstName + ", le serveur ne répond pas. Réessayez plus tard.'
+js-error-min: 'Désolé "+i+", le serveur ne répond pas. Réessayez plus tard.'
