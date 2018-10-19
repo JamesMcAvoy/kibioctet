@@ -43,6 +43,7 @@ layout: default
       </div>
     </section>
 
+    {%- if false -%}
     <!-- Portfolio Grid -->
     <section class="bg-light" id="portfolio">
       <div class="container">
@@ -74,6 +75,7 @@ layout: default
         </div>
       </div>
     </section>
+    {%- endif -%}
 
     <!-- About -->
     <section id="about">
@@ -105,6 +107,7 @@ layout: default
               </li>
               {%- endfor -%}
               {% assign ws = '' %}
+              {%- if site.data.home.about.end1 and site.data.home.about.end2 and site.data.home.about.end3 -%}
               <li class="timeline-inverted">
                 <div class="timeline-image">
                   <h4>{{ site.data.home.about.end1 }}
@@ -112,6 +115,7 @@ layout: default
                     <br>{{ site.data.home.about.end3 }}</h4>
                 </div>
               </li>
+              {%- endif -%}
             </ul>
           </div>
         </div>

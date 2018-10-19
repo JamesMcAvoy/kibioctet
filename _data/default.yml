@@ -5,8 +5,6 @@ menu-string: Menu
 nav:
   - title: Services
     url: '/#services'
-  - title: Portfolio
-    url: '/#portfolio'
   - title: À propos
     url: '/#about'
   - title: Équipe
@@ -17,12 +15,6 @@ nav:
 copyright: © 2018
 
 social-buttons:
-  - icon: fa fa-twitter
-    url: '#'
-  - icon: fa fa-facebook
-    url: '#'
-  - icon: fa fa-linkedin
-    url: '#'
 
 quicklinks:
   - title: CGU

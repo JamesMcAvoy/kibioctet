@@ -94,7 +94,7 @@
     {%- if page.layout == 'home' -%}
     <!-- Portfolio Modals -->
     {%- for project in site.projects -%}
-{% assign ws = '' %}
+    {% assign ws = '' %}
 
     <!-- Modal {{ project.id | replace: '/projects/', '' }} -->
     <div class="portfolio-modal modal fade" id="portfolioModal{{ project.id | replace: '/projects/', '' }}" tabindex="-1" role="dialog" aria-hidden="true">

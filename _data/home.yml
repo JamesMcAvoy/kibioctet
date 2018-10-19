@@ -18,8 +18,8 @@ services:
       text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
 
 portfolio:
-  heading: Portfolio
-  subheading: Lorem ipsum dolor sit amet consectetur.
+  heading:
+  subheading:
 
 about:
   heading: About
@@ -42,9 +42,9 @@ about:
       title: Phase Two Expansion
       text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
 
-  end1: Be Part
-  end2: Of Our
-  end3: Story!
+  end1:
+  end2:
+  end3:
 
 team:
   heading: L'équipe
