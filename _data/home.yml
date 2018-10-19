@@ -47,41 +47,29 @@ about:
   end3: Story!
 
 team:
-  heading: Our Amazing Team
+  heading: L'équipe
   subheading: Lorem ipsum dolor sit amet consectetur.
   members:
-    - name: Kay Garland
-      role: Lead Designer
+    - name: Victor Losser
+      role: Développeur
       img: img/team/1.jpg
       social-buttons:
-        - icon: fa fa-twitter
-          url: "#"
-        - icon: fa fa-facebook
-          url: "#"
         - icon: fa fa-linkedin
-          url: "#"
+          url: "https://www.linkedin.com/in/victor-losser/"
 
-    - name: Larry Parker
-      role: Lead Marketer
+    - name: Vincent Pansera
+      role: Président
       img: img/team/2.jpg
       social-buttons:
-        - icon: fa fa-twitter
-          url: "#"
-        - icon: fa fa-facebook
-          url: "#"
         - icon: fa fa-linkedin
-          url: "#"
+          url: "https://www.linkedin.com/in/vincent-p-8b326812a/"
 
-    - name: Diana Pertersen
-      role: Lead Developer
+    - name: Mathieu Brisset
+      role: Développeur
       img: img/team/3.jpg
       social-buttons:
-        - icon: fa fa-twitter
-          url: "#"
-        - icon: fa fa-facebook
-          url: "#"
         - icon: fa fa-linkedin
-          url: "#"
+          url: "https://www.linkedin.com/in/mathieu-brisset-641abb152/"
 
   text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
 
