@@ -91,4 +91,4 @@ contact:
   js-url: 'http://pansera.fr/kibioctet/contact.php'
   js-success: 'Votre message a bien été envoyé. '
   js-error: 'Désolé " + firstName + ", le serveur ne répond pas. Réessayez plus tard.'
-js-error-min: 'Désolé "+i+", le serveur ne répond pas. Réessayez plus tard.'
+  js-error-min: 'Désolé "+i+", le serveur ne répond pas. Réessayez plus tard.'
