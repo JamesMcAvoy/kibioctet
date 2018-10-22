@@ -3,9 +3,9 @@ brand:
 menu-string: Menu
 
 nav:
-  - title: Services
+  - title: Nos Services
     url: '/#services'
-  - title: À propos
+  - title: Nos Valeurs
     url: '/#about'
   - title: Équipe
     url: '/#team'
