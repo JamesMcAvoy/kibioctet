@@ -44,7 +44,7 @@ about:
 
 team:
   heading: L'équipe
-  subheading: Une équipe jeune, dynamique, compétente, flexible et serviable 
+  subheading: Une équipe jeune, dynamique, compétente, flexible et serviable
   members:
     - name: Victor Losser
       role: Développeur
@@ -84,7 +84,7 @@ contact:
   message-required: Détaillez votre message.
   btn: Envoyer le message
 
-  js-url: 'http://pansera.fr/kibioctet/contact.php'
+  js-url: '/contact/contact.php'
   js-success: 'Votre message a bien été envoyé. '
   js-error: 'Désolé " + firstName + ", le serveur ne répond pas. Réessayez plus tard.'
   js-error-min: 'Désolé "+i+", le serveur ne répond pas. Réessayez plus tard.'

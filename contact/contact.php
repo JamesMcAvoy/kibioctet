@@ -18,7 +18,7 @@ foreach($postfields as $postfield)
     if(!isset($_POST[$postfield])) bad_rq();
 
 $to = 'contact@kibioctet.fr';
-$subject = $_POST['name'].'a envoyé un message !';
+$subject = $_POST['name'].' a envoyé un message !';
 $message = $_POST['message']
            ."\r\n\r\n"
            .'Téléphone : '
@@ -28,4 +28,4 @@ $message = $_POST['message']
            .$_POST['email'];
 
 //If error => bad request
-if(!@mail($to, $subject, $message)) bad_rq();
+if(!@mail($to, $subject, $message, 'Content-Type: text/plain;charset=utf-8')) bad_rq();
