@@ -1,21 +1,21 @@
 intro:
   lead-in: "Agence Kibioctet à Strasbourg"
-  heading: Développement de site web
+  heading: Nous créons des sites web percutants pour votre activité
   btn: En savoir +
 
 services:
   heading: Nos Services
-  subheading: Kibioctet vous propose un large panel de solutions, adaptées à vos besoins.
+  subheading: Votre activité mérite la meilleure des visibilités sur internet.
   service:
     - icon: fa fa-desktop
       heading: Site vitrine
-      text: Adapté à votre budget et vos besoins, votre site vitrine offrira une excellente visibilité sur le web à votre activité.
+      text: Adapté à votre budget et à vos besoins, votre site vitrine offrira une excellente visibilité sur le web à votre activité.
     - icon: fa fa-shopping-cart
       heading: E-Commerce
       text: Faites confiance à Kibioctet pour votre future plateforme de vente en ligne.
     - icon: fa fa-laptop
       heading: Site sur mesure
-      text: Si vous avez un besoin plus spécifique pour votre site ou application WEB, notre équipe saura concrétiser toutes vos demandes.
+      text: Si vous avez un besoin plus spécifique pour votre site ou application web, notre équipe saura concrétiser toutes vos demandes.
 
 portfolio:
   heading:
@@ -36,7 +36,7 @@ about:
       text: Une prestation adaptée à vos besoins, un site à votre image.
     - image: img/about/4.jpg
       title: Disponibilité
-      text: Notre équipe est toujours à votre écoute, réactive et flexible. Lorsque vous choississez Kibioctet, vous bénéficiez d'un réel support.
+      text: Notre équipe est réactive, flexible et toujours à votre écoute. Lorsque vous choississez Kibioctet, vous bénéficiez d'un réel support.
 
   end1:
   end2:

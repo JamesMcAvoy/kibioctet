@@ -29,6 +29,39 @@
     <!-- Custom styles for this template -->
     <link href="{{ assets_path }}css/agency.min.css" rel="stylesheet">
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132853613-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-132853613-1');
+    </script>
+
+    <!-- Cookie consent -->
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+    <script>
+      window.addEventListener("load", function() {
+      window.cookieconsent.initialise({
+        "palette": {
+          "popup": {
+            "background": "#2e343a"
+          },
+          "button": {
+            "background": "#af1010"
+          }
+        },
+        "showLink": false,
+        "theme": "classic",
+        "content": {
+          "message": "Ce site internet utilise des cookies pour améliorer l'expérience utilisateur.",
+          "dismiss": "Compris"
+        }
+      })});
+    </script>
+
   </head>
 
   <body id="page-top">
@@ -149,6 +182,31 @@
 
     <!-- Custom scripts for this template -->
     <script src="{{ assets_path }}js/agency.min.js"></script>
+
+    <script>
+      //Check if browser is Chrome or Firefox
+      var isChromium = window.chrome;
+      var winNav = window.navigator;
+      var vendorName = winNav.vendor;
+      var isOpera = typeof window.opr !== "undefined";
+      var isIEedge = winNav.userAgent.indexOf("Edge") > -1;
+      if((
+        isChromium !== null &&
+        typeof isChromium !== "undefined" &&
+        vendorName === "Google Inc." &&
+        isOpera === false &&
+        isIEedge === false) || navigator.userAgent.toLowerCase().indexOf('firefox') > -1)
+      {
+        $('#video-container').html('<video id="video-head" autoplay loop muted><source src="https://unhommeautourdumonde.fr/wp-content/uploads/2018/12/header-video.mp4" type="video/mp4"></video>');
+        $('.masthead').css({"position": "relative","background-color": "gray"});
+        $('.masthead .intro-text').css({"top": "0", "right": "0", "bottom": "0", "left": "0",
+        "position":"absolute",
+        "display": "flex",
+        "flex-direction": "column",
+        "align-items": "center",
+        "justify-content": "center"});
+      }
+    </script>
 
   </body>
 
