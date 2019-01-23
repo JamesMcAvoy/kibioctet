@@ -18,8 +18,8 @@ services:
       text: Si vous avez un besoin plus spécifique pour votre site ou application web, notre équipe saura concrétiser toutes vos demandes.
 
 portfolio:
-  heading:
-  subheading:
+  heading: Portfolio
+  subheading: Voici les projets que nous avons déjà réalisés
 
 about:
   heading: Nos valeurs
@@ -58,7 +58,9 @@ team:
       img: img/team/2.jpg
       social-buttons:
         - icon: fa fa-linkedin
-          url: "https://www.linkedin.com/in/vincent-p-8b326812a/"
+          url: "https://www.linkedin.com/in/vincent-pansera/"
+        - icon: fa fa-globe
+          url: "http://www.pansera.fr"
 
     - name: Mathieu Brisset
       role: Développeur
