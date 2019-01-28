@@ -55,7 +55,7 @@ layout: default
           </div>
         </div>
         <div class="row">
-          {%- for project in site.projects -%}
+          {% for project in site.data.portfolio.project %}
           {% assign ws = '' %}
           <div class="col-md-4 col-sm-6 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal{{ project.id | replace: '/projects/', '' }}">
@@ -71,7 +71,7 @@ layout: default
               <p class="text-muted">{{ project.category }}</p>
             </div>
           </div>
-          {%- endfor -%}
+          {% endfor %}
         {% assign ws = '' %}
         </div>
       </div>

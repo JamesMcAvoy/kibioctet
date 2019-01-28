@@ -126,7 +126,7 @@
     {% assign ws = '' %}
     {%- if page.layout == 'home' -%}
     <!-- Portfolio Modals -->
-    {%- for project in site.projects -%}
+    {%- for project in site.data.portfolio.project -%}
     {% assign ws = '' %}
 
     <!-- Modal {{ project.id | replace: '/projects/', '' }} -->
