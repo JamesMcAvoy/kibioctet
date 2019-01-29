@@ -145,7 +145,7 @@
                   <!-- Project Details Go Here -->
                   <h2 class="text-uppercase">{{ project.title }}</h2>
                   <p class="item-intro text-muted">{{ project.description }}</p>
-                  <img class="img-fluid d-block mx-auto" src="{{ assets_path }}{{ project.image }}" alt="">
+                  <a href="{{project.link}}" target="_blank"><img class="img-fluid d-block mx-auto" src="{{ assets_path }}{{ project.image }}" alt=""></a>
                   <p class="item-intro">"{{ project.citation }}"<br/><span class="item-intro text-muted">{{ project.person }}</span></p>
                   
                   <ul class="list-inline">
