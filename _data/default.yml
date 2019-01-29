@@ -23,6 +23,6 @@ quicklinks:
 modal:
   date-string: 'Date: '
   client-string: 'Client: '
-  category-string: 'Category: '
+  category-string: 'Categorie: '
   close-icon: 'fa fa-times'
 close-string: 'Close Project'
