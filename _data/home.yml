@@ -3,24 +3,6 @@ intro:
   heading: Nous créons des sites web percutants pour votre activité
   btn: En savoir +
 
-services:
-  heading: Nos Services
-  subheading: Votre activité mérite la meilleure des visibilités sur internet.
-  service:
-    - icon: fa fa-desktop
-      heading: Site vitrine
-      text: Adapté à votre budget et à vos besoins, votre site vitrine offrira une excellente visibilité sur le web à votre activité.
-    - icon: fa fa-shopping-cart
-      heading: E-Commerce
-      text: Faites confiance à Kibioctet pour votre future plateforme de vente en ligne.
-    - icon: fa fa-laptop
-      heading: Site sur mesure
-      text: Si vous avez un besoin plus spécifique pour votre site ou application web, notre équipe saura concrétiser toutes vos demandes.
-
-portfolio:
-  heading: Portfolio
-  subheading: Voici les projets que nous avons déjà réalisés
-
 about:
   heading: Nos valeurs
 
@@ -41,6 +23,14 @@ about:
   end1:
   end2:
   end3:
+
+news:
+  heading: Les actualités
+  subheading: Les dernières news de Kibioctet
+
+portfolio:
+  heading: Portfolio
+  subheading: Voici les projets que nous avons déjà réalisés
 
 team:
   heading: L'équipe
@@ -71,11 +61,56 @@ team:
 
   text: "Une équipe soudée à taille humaine, qui donnera toujours son maximum pour vous assurer une prestation de qualité. Une jeunesse qui apporte une réelle compréhension du monde informatique actuel, des compétences issues de la formation et de l'expérience de nos collaborateurs, telles sont les forces de Kibioctet !"
 
+services:
+  heading: Nos Services
+  subheading: Votre activité mérite la meilleure des visibilités sur internet.
+  service:
+    - icon: fa fa-desktop
+      heading: Site vitrine
+      text: Adapté à votre budget et à vos besoins, votre site vitrine offrira une excellente visibilité sur le web à votre activité.
+      arguments:
+        - argument: Personnalisation partielle
+        - argument: Fiable
+        - argument: A votre image
+        - argument: Design moderne
+        - argument: Facile (on s’occupe de tout)
+        - argument: Rapide à mettre en place
+        - argument: Petit budget
+      price: à partir de 500€
+      special-offer: (-50% sur votre site si vous parrainez un autre client !)
+
+    - icon: fa fa-shopping-cart
+      heading: E-Commerce
+      text: Faites confiance à Kibioctet pour votre future plateforme de vente en ligne.
+      arguments:
+        - argument: Personnalisation complète
+        - argument: Fiable
+        - argument: A votre image
+        - argument: Design moderne
+        - argument: Facile (on s’occupe de tout)
+        - argument: Support technique réactif
+      price: à partir de 1000€
+
+    - icon: fa fa-laptop
+      heading: Sur mesure
+      text: Si vous avez un besoin plus spécifique pour votre site ou application web, notre équipe saura concrétiser toutes vos demandes.
+      arguments:
+        - argument: Personnalisation complète
+        - argument: Fiable
+        - argument: A votre image
+        - argument: Design moderne
+        - argument: Facile (on s’occupe de tout)
+        - argument: Support technique réactif
+        - argument: Tout type de module/application
+      price: à partir de 1000€
+
 clients:
+  - img: img/logos/cal-asso-logo.png
+    url: "https://cal-asso.fr/"
 
 contact:
   heading: Nous contacter
-  subheading: Intéressé ? Besoin de réponses ? Un formulaire de contact est disponible ci-dessous
+  subheading: Vous souhaitez une démonstration ou des renseignements ?
   name: Votre nom*
   name-required: Rentrez votre nom.
   email: Votre courriel*

@@ -1,6 +1,7 @@
 project:
   - title: Le site des chevrons d'Alsace-Lorraine
     description: Un site vitrine Wordpress (les clients souhaitaient retrouver leurs repères de leurs anciens sites Wordpress) composé de plusieurs pages et d'un blog.
+    link: https://cal-asso.fr/
     image: img/portfolio/01-full.jpg
     thumbnail: img/portfolio/01-thumbnail.jpg
     date: Novembre 2018

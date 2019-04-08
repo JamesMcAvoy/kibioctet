@@ -537,3 +537,36 @@ ul.social-buttons {
   line-height: 1;
   letter-spacing: -1px;
 }
+
+.service-row {
+  border: 1px solid #e7e7e7;
+  margin: 0;
+  padding: 20px;
+
+}
+
+.service-div {
+  border-radius: 5px;
+  border: 2px solid #eeeeee;
+  padding: 0;
+  box-shadow: 1px 1px 12px #555;
+  margin: 10px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+#btn-demo-responsive{
+  display: inline;
+}
+}
+
+@media screen and (min-width: 992px){
+#btn-demo-responsive{
+  display: none;
+}
+}
+
+@media screen and (max-width: 768px){
+#btn-demo-responsive{
+  display: none;
+}
+}
