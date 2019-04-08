@@ -31,6 +31,8 @@ GEM
       safe_yaml (~> 1.0)
     jekyll-feed (0.11.0)
       jekyll (~> 3.3)
+    jekyll-multiple-languages-plugin (1.6.0)
+      jekyll (>= 2.0, < 4.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
     jekyll-theme-startbootstrap-agency (0.2.4)
@@ -72,9 +74,10 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 3.8.4)
   jekyll-feed (~> 0.6)
+  jekyll-multiple-languages-plugin
   jekyll-theme-startbootstrap-agency
   tzinfo-data
   wdm (~> 0.1.0)
 
 BUNDLED WITH
-   1.16.6
+   1.17.1
