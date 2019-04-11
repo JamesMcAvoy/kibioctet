@@ -1,3 +1,181 @@
+# Meta & divers
 meta:
   title: Kibioctet
-  description: Agence de développement
+  description: Agence WEB Strasbourg Alsace Sarre-Union
+
+cookieconsent:
+  content: Ce site internet utilise des cookies pour améliorer l'expérience utilisateur.
+  dismiss: Compris
+
+# Nav
+nav:
+  brand: <img src="/assets/img/logos/kibioctet.png" class="logo-header" />
+  menu-string: Menu
+  links:
+    - title: Nos Services
+      url: '/#services'
+    - title: Nos Valeurs
+      url: '/#about'
+    - title: Équipe
+      url: '/#team'
+    - title: Contact
+      url: '/#contact'
+
+# Footer
+footer:
+  copyright: © 2019
+  social-buttons:
+  quicklinks:
+    - title: CGU
+      url: '/cgu/'
+
+# Portfolio
+portfolio:
+  heading: Portfolio
+  subheading: Voici les projets que nous avons déjà réalisés
+
+modal:
+  date-string: 'Date: '
+  client-string: 'Client: '
+  category-string: 'Catégorie: '
+  close-icon: 'fa fa-times' # do not change
+  close-string: 'Fermer'
+
+projects:
+  - title: Le site des chevrons d'Alsace-Lorraine
+    description: Un site vitrine Wordpress (les clients souhaitaient retrouver leurs repères de leurs anciens sites Wordpress) composé de plusieurs pages et d'un blog.
+    link: https://cal-asso.fr/
+    image: img/portfolio/01-full.jpg
+    thumbnail: img/portfolio/01-thumbnail.jpg
+    date: Novembre 2018
+    client: Les chevrons d'Alsace-Lorraine
+    category: Site Vitrine
+    citation: Ce fut un plaisir de travailler avec une équipe aussi dynamique et serviable.
+    person: Éric Vassas, Président des Chevrons d'Alsace-Lorraine
+
+#####################
+# Main home content #
+#####################
+intro:
+  lead-in: "Agence Kibioctet à Strasbourg"
+  heading: Nous créons des sites web percutants pour votre activité
+  btn: En savoir +
+
+about:
+  heading: Nos valeurs
+  subheading:
+  timeline:
+    - image: img/about/1.jpg
+      title: Un tarif abordable
+      text: Nous savons que tout le monde n'a pas un budget illimité pour son développement sur le web. C'est pour cela que Kibioctet propose des prestations de qualité à des tarifs raisonnables.
+    - image: img/about/2.jpg
+      title: Simplicité
+      text: Ne perdez pas de temps et d'énergie dans votre projet, Kibioctet s'occupe de tout !
+    - image: img/about/3.jpg
+      title: Personnalisation
+      text: Une prestation adaptée à vos besoins, un site à votre image.
+    - image: img/about/4.jpg
+      title: Disponibilité
+      text: Notre équipe est réactive, flexible et toujours à votre écoute. Lorsque vous choississez Kibioctet, vous bénéficiez d'un réel support.
+  end1: # blank
+  end2: # blank
+  end3: # blank
+
+news:
+  heading: Les actualités
+  subheading: Les dernières news de Kibioctet
+
+team:
+  heading: L'équipe
+  subheading: Une équipe jeune, dynamique, compétente, flexible et serviable
+  members:
+    - name: Victor Losser
+      role: Développeur
+      img: img/team/1.jpg
+      social-buttons:
+        - icon: fa fa-linkedin
+          url: "https://www.linkedin.com/in/victor-losser/"
+
+    - name: Vincent Pansera
+      role: Président
+      img: img/team/2.jpg
+      social-buttons:
+        - icon: fa fa-linkedin
+          url: "https://www.linkedin.com/in/vincent-pansera/"
+        - icon: fa fa-globe
+          url: "http://www.pansera.fr"
+
+    - name: Mathieu Brisset
+      role: Développeur
+      img: img/team/3.jpg
+      social-buttons:
+        - icon: fa fa-linkedin
+          url: "https://www.linkedin.com/in/mathieu-brisset-641abb152/"
+
+  text: "Une équipe soudée à taille humaine, qui donnera toujours son maximum pour vous assurer une prestation de qualité. Une jeunesse qui apporte une réelle compréhension du monde informatique actuel, des compétences issues de la formation et de l'expérience de nos collaborateurs, telles sont les forces de Kibioctet !"
+
+services:
+  heading: Nos Services
+  subheading: Votre activité mérite la meilleure des visibilités sur internet.
+  demo: >
+    Obtenir une<br/>démonstration <span id="btn-demo-responsive"><br/></span> gratuite
+  service:
+    - icon: fa fa-desktop
+      heading: Site vitrine
+      text: Adapté à votre budget et à vos besoins, votre site vitrine offrira une excellente visibilité sur le web à votre activité.
+      arguments:
+        - argument: Personnalisation partielle
+        - argument: Fiable
+        - argument: A votre image
+        - argument: Design moderne
+        - argument: Facile (on s’occupe de tout)
+        - argument: Rapide à mettre en place
+        - argument: Petit budget
+      price: à partir de 500 €
+      special-offer: (-50 % sur votre site si vous parrainez un autre client !)
+
+    - icon: fa fa-shopping-cart
+      heading: E-Commerce
+      text: Faites confiance à Kibioctet pour votre future plateforme de vente en ligne.
+      arguments:
+        - argument: Personnalisation complète
+        - argument: Fiable
+        - argument: A votre image
+        - argument: Design moderne
+        - argument: Facile (on s’occupe de tout)
+        - argument: Support technique réactif
+      price: à partir de 1 000 €
+
+    - icon: fa fa-laptop
+      heading: Sur mesure
+      text: Si vous avez un besoin plus spécifique pour votre site ou application web, notre équipe saura concrétiser toutes vos demandes.
+      arguments:
+        - argument: Personnalisation complète
+        - argument: Fiable
+        - argument: A votre image
+        - argument: Design moderne
+        - argument: Facile (on s’occupe de tout)
+        - argument: Support technique réactif
+        - argument: Tout type de module/application
+      price: à partir de 1 000 €
+
+clients:
+  - img: img/logos/cal-asso-logo.png
+    url: "https://cal-asso.fr/"
+
+contact:
+  heading: Nous contacter
+  subheading: Vous souhaitez une démonstration ou des renseignements ?
+  name: Votre nom*
+  name-required: Rentrez votre nom.
+  email: Votre courriel*
+  email-required: Rentrez votre courriel.
+  phone: Votre numéro de téléphone*
+  phone-required: Rentrez votre numéro de téléphone.
+  message: Votre message*
+  message-required: Détaillez votre message.
+  btn: Envoyer le message
+
+  js-url: /contact/contact.php
+  js-success: Votre message a bien été envoyé.
+  js-error: Désolé le serveur ne répond pas. Réessayez plus tard.

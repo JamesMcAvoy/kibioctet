@@ -11,11 +11,10 @@ layout: default
       <div id="video-container">
       </div>
       <div class="container">
-        <h1 style="display: none">Agence WEB Strasbourg Alsace Sarre-Union</h1>
         <div class="intro-text">
-          <div class="intro-lead-in">{{ site.data.home.intro.lead-in }}</div>
-          <div class="intro-heading text-uppercase">{{ site.data.home.intro.heading }}</div>
-          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#about">{{ site.data.home.intro.btn }}</a>
+          <div class="intro-lead-in">{% t intro.lead-in %}</div>
+          <div class="intro-heading text-uppercase">{% t intro.heading %}</div>
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#about">{% t intro.btn %}{</a>
         </div>
       </div>
     </header>
@@ -25,14 +24,14 @@ layout: default
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">{{ site.data.home.about.heading }}</h2>
-            <h3 class="section-subheading text-muted">{{ site.data.home.about.subheading  }}</h3>
+            <h2 class="section-heading text-uppercase">{% t about.heading %}</h2>
+            <h3 class="section-subheading text-muted">{% t about.subheading %}</h3>
           </div>
         </div>
         <div class="row">
           <div class="col-lg-12">
             <ul class="timeline">
-              {%- for time in site.data.home.about.timeline -%}
+              {%- for time in site.translations[site.lang]["about"].timeline -%}
               {% assign ws = '' %}
               <li{% cycle '', ' class="timeline-inverted"' %}>
                 <div class="timeline-image">
@@ -50,12 +49,16 @@ layout: default
               </li>
               {%- endfor -%}
               {% assign ws = '' %}
-              {%- if site.data.home.about.end1 and site.data.home.about.end2 and site.data.home.about.end3 -%}
+              {%- if site.translations[site.lang]["about"].end1 and
+                     site.translations[site.lang]["about"].end2 and
+                     site.translations[site.lang]["about"].end3 -%}
               <li class="timeline-inverted">
                 <div class="timeline-image">
-                  <h4>{{ site.data.home.about.end1 }}
-                    <br>{{ site.data.home.about.end2 }}
-                    <br>{{ site.data.home.about.end3 }}</h4>
+                  <h4>
+                      {% t about.end1 %}<br>
+                      {% t about.end2 %}<br>
+                      {% t about.end3 %}
+                  </h4>
                 </div>
               </li>
               {%- endif -%}
@@ -70,8 +73,8 @@ layout: default
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">{{ site.data.home.news.heading }}</h2>
-            <h3 class="section-subheading text-muted">{{ site.data.home.news.subheading }}</h3>
+            <h2 class="section-heading text-uppercase">{% t news.heading %}</h2>
+            <h3 class="section-subheading text-muted">{% t news.subheading %}</h3>
           </div>
         </div>
         <div class="row">
@@ -87,12 +90,12 @@ layout: default
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">{{ site.data.home.portfolio.heading }}</h2>
-            <h3 class="section-subheading text-muted">{{ site.data.home.portfolio.subheading }}</h3>
+            <h2 class="section-heading text-uppercase">{% t portfolio.heading %}</h2>
+            <h3 class="section-subheading text-muted">{% t portfolio.heading %}</h3>
           </div>
         </div>
         <div class="row">
-          {% for project in site.data.portfolio.project %}
+          {%- for project in site.translations[site.lang]["projects"] -%}
           {% assign ws = '' %}
           <div class="col-md-4 col-sm-6 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal{{ project.id | replace: '/projects/', '' }}">
@@ -119,12 +122,12 @@ layout: default
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">{{ site.data.home.team.heading }}</h2>
-            <h3 class="section-subheading text-muted">{{ site.data.home.team.subheading }}</h3>
+            <h2 class="section-heading text-uppercase">{% t portfolio.heading %}</h2>
+            <h3 class="section-subheading text-muted">{% t portfolio.subheading %}</h3>
           </div>
         </div>
         <div class="row">
-          {%- for member in site.data.home.team.members -%}
+          {%- for member in site.translations[site.lang]["team"].members -%}
           {% assign ws = '' %}
           <div class="col-sm-4">
             <div class="team-member">
@@ -149,7 +152,7 @@ layout: default
         </div>
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
-            <p class="large text-muted">{{ site.data.home.team.text }}</p>
+            <p class="large text-muted">{% t team.text %}</p>
           </div>
         </div>
       </div>
@@ -160,12 +163,12 @@ layout: default
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">{{ site.data.home.services.heading }}</h2>
-            <h3 class="section-subheading text-muted">{{ site.data.home.services.subheading }}</h3>
+            <h2 class="section-heading text-uppercase">{% t services.heading %}</h2>
+            <h3 class="section-subheading text-muted">{% t services.subheading %}</h3>
           </div>
         </div>
         <div class="row text-center">
-          {%- for service in site.data.home.services.service -%}
+          {%- for service in site.translations[site.lang]["services"].service -%}
           {% assign ws = '' %}
           <div class="col-md-4" style="padding: 0">
             <div class="service-div">
@@ -185,18 +188,18 @@ layout: default
                   {% assign ws = '' %}
                   <li style="display:flex; justify-content: left">
                     <span><i class="fa fa-check" aria-hidden="true"></i></span>
-                    <span>&nbsp;{{arguments.argument}} </span>
+                    <span>&nbsp;{{ arguments.argument }} </span>
                   </li>
                   {%- endfor -%}
                   {% assign ws = '' %}
                 </ul>
               </div>
               <div class="service-row">
-                <h4>{{service.price}}</h4>
-                <span style="font-weight: bold; color: red">{{service.special-offer}}</span>
+                <h4>{{ service.price }}</h4>
+                <span style="font-weight: bold; color: red">{{ service.special-offer }}</span>
               </div>
               <div class="service-row">
-                <a class="btn btn-success js-scroll-trigger" href="#contact" >Obtenir une<br/>démonstration <span id="btn-demo-responsive"><br/></span> gratuite</a>
+                <a class="btn btn-success js-scroll-trigger" href="#contact" >{% t services.demo  %}</a>
               </div>
             </div>
           </div>
@@ -210,7 +213,7 @@ layout: default
     <section class="py-5">
       <div class="container">
         <div class="row">
-          {%- for client in site.data.home.clients -%}
+          {%- for client in site.translations[site.lang]["clients"] -%}
           {% assign ws = '' %}
           <div class="col-md-3 col-sm-6">
             <a href="{{ client.url }}">
@@ -228,8 +231,8 @@ layout: default
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">{{ site.data.home.contact.heading }}</h2>
-            <h3 class="section-subheading" style="color: #DDD">{{ site.data.home.contact.subheading }}</h3>
+            <h2 class="section-heading text-uppercase">{% t contact.heading %}</h2>
+            <h3 class="section-subheading" style="color: #DDD">{% t contact.subheading %}</h3>
           </div>
         </div>
         <div class="row">
@@ -238,28 +241,28 @@ layout: default
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
-                    <input class="form-control" id="name" type="text" placeholder="{{ site.data.home.contact.name }}" required="required" data-validation-required-message="{{ site.data.home.contact.name-required }}">
+                    <input class="form-control" id="name" type="text" placeholder="{% t contact.name %}" required="required" data-validation-required-message="{% t contact.name-required %}">
                     <p class="help-block text-danger"></p>
                   </div>
                   <div class="form-group">
-                    <input class="form-control" id="email" type="email" placeholder="{{ site.data.home.contact.email }}" required="required" data-validation-required-message="{{ site.data.home.contact.email-required }}">
+                    <input class="form-control" id="email" type="email" placeholder="{% t contact.email %}" required="required" data-validation-required-message="{% t contact.email-required %}">
                     <p class="help-block text-danger"></p>
                   </div>
                   <div class="form-group">
-                    <input class="form-control" id="phone" type="tel" placeholder="{{ site.data.home.contact.phone }}" required="required" data-validation-required-message="{{ site.data.home.contact.phone-required }}">
+                    <input class="form-control" id="phone" type="tel" placeholder="{% t contact.phone %}" required="required" data-validation-required-message="{% t contact.phone-required %}">
                     <p class="help-block text-danger"></p>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
-                    <textarea class="form-control" id="message" placeholder="{{ site.data.home.contact.message }}" required="required" data-validation-required-message="{{ site.data.home.contact.message-required }}"></textarea>
+                    <textarea class="form-control" id="message" placeholder="{% t contact.message %}" required="required" data-validation-required-message="{% t contact.message-required %}"></textarea>
                     <p class="help-block text-danger"></p>
                   </div>
                 </div>
                 <div class="clearfix"></div>
                 <div class="col-lg-12 text-center">
                   <div id="success"></div>
-                  <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">{{ site.data.home.contact.btn }}</button>
+                  <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">{% t contact.btn %}</button>
                 </div>
               </div>
             </form>
