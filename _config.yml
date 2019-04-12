@@ -28,7 +28,7 @@ keep_files:
   - ".git"
   - ".gitignore"
 
-languages: ["fr"]
+languages: ["fr", "en"]
 
 title: Kibioctet
 email: contact@kibioctet.fr
