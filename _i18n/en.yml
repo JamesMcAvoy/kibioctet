@@ -93,14 +93,14 @@ team:
       role: Développeur
       img: img/team/1.jpg
       social-buttons:
-        - icon: fa fa-linkedin
+        - icon: fab fa-linkedin-in
           url: "https://www.linkedin.com/in/victor-losser/"
 
     - name: Vincent Pansera
       role: Président
       img: img/team/2.jpg
       social-buttons:
-        - icon: fa fa-linkedin
+        - icon: fab fa-linkedin-in
           url: "https://www.linkedin.com/in/vincent-pansera/"
         - icon: fa fa-globe
           url: "http://www.pansera.fr"
@@ -109,7 +109,7 @@ team:
       role: Développeur
       img: img/team/3.jpg
       social-buttons:
-        - icon: fa fa-linkedin
+        - icon: fab fa-linkedin-in
           url: "https://www.linkedin.com/in/mathieu-brisset-641abb152/"
 
   text: "Une équipe soudée à taille humaine, qui donnera toujours son maximum pour vous assurer une prestation de qualité. Une jeunesse qui apporte une réelle compréhension du monde informatique actuel, des compétences issues de la formation et de l'expérience de nos collaborateurs, telles sont les forces de Kibioctet !"
