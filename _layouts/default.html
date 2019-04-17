@@ -122,7 +122,7 @@
               {%- for ql in site.translations[site.lang]["footer"].quicklinks -%}
               {% assign ws = '' %}
               <li class="list-inline-item">
-                <a href="{{ ql.url }}">{{ ql.title }}</a>
+                <a href="{{ site.baseurl }}{{ ql.url }}">{{ ql.title }}</a>
               </li>
               {%- endfor -%}
             {% assign ws = '' %}
