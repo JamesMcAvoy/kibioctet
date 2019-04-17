@@ -1,9 +1,9 @@
 # Compiler
 
-`chcp 65001`
-`bundle exec jekyll b`
+`chcp 65001`<br />
+`php build.php`
 
 # Servir en local
 
-`chcp 65001`
+`chcp 65001`<br />
 `bundle exec jekyll s`
