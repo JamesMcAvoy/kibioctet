@@ -18,6 +18,7 @@ $path = '_site/';
 
 //Files to delete
 $delete = array(
+    'build.php',
     'assets/js/agency.js',
     'assets/js/contact_me.min.js',
     'assets/js/jqBootstrapValidation.js',
