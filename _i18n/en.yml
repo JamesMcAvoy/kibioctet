@@ -1,22 +1,22 @@
 # Meta & divers
 meta:
   title: Kibioctet
-  description: Agence WEB Strasbourg Alsace Sarre-Union
+  description: Web agency Strasbourg Alsace Sarre-Union
 
 cookieconsent:
-  content: Ce site internet utilise des cookies pour améliorer l'expérience utilisateur.
-  dismiss: Compris
+  content: This website uses cookies to ensure you get the best experience on our website
+  dismiss: OK
 
 # Nav
 nav:
   brand: <img src="/assets/img/logos/kibioctet.png" class="logo-header" />
   menu-string: Menu
   links:
-    - title: Nos Services
+    - title: Our Services
       url: '/#services'
-    - title: Nos Valeurs
+    - title: Our Values
       url: '/#about'
-    - title: Équipe
+    - title: Team
       url: '/#team'
     - title: Contact
       url: '/#contact'
@@ -26,78 +26,78 @@ footer:
   copyright: © 2019
   social-buttons:
   quicklinks:
-    - title: CGU
+    - title: Terms and conditions of use
       url: '/cgu/'
 
 # Portfolio
 portfolio:
   heading: Portfolio
-  subheading: Voici les projets que nous avons déjà réalisés
+  subheading: Here are the projects we have already completed
 
 modal:
   date-string: 'Date: '
-  client-string: 'Client: '
-  category-string: 'Catégorie: '
+  client-string: 'Customer: '
+  category-string: 'Category: '
   close-icon: 'fa fa-times' # do not change
-  close-string: 'Fermer'
+  close-string: 'Close'
 
 projects:
-  - title: Le site des chevrons d'Alsace-Lorraine
-    description: Un site vitrine Wordpress (les clients souhaitaient retrouver leurs repères de leurs anciens sites Wordpress) composé de plusieurs pages et d'un blog.
+  - title: LThe website of "Les chevrons d'Alsace-Lorraine"
+    description: A Wordpress landing-page (the customers wanted to find their references from their old Wordpress sites) composed of several pages and a blog.
     link: https://cal-asso.fr/
     image: img/portfolio/01-full.jpg
     thumbnail: img/portfolio/01-thumbnail.jpg
-    date: Novembre 2018
+    date: November 2018
     client: Les chevrons d'Alsace-Lorraine
-    category: Site Vitrine
-    citation: Ce fut un plaisir de travailler avec une équipe aussi dynamique et serviable.
-    person: Éric Vassas, Président des Chevrons d'Alsace-Lorraine
+    category: Showcase website
+    citation: It was a pleasure to work with such a dynamic and helpful team.
+    person: Éric Vassas, Chairman of Les Chevrons d'Alsace-Lorraine
 
 #####################
 # Main home content #
 #####################
 intro:
-  lead-in: "Agence Kibioctet à Strasbourg"
-  heading: Nous créons des sites web percutants pour votre activité
-  btn: En savoir +
+  lead-in: "Web agency Kibioctet based in Strasbourg"
+  heading: We create powerful websites for your business
+  btn: Learn more
 
 about:
-  heading: Nos valeurs
+  heading: Our values
   subheading:
   timeline:
     - image: img/about/1.jpg
-      title: Un tarif abordable
-      text: Nous savons que tout le monde n'a pas un budget illimité pour son développement sur le web. C'est pour cela que Kibioctet propose des prestations de qualité à des tarifs raisonnables.
+      title: An affordable price
+      text: We know that not everyone has an unlimited budget for their development on the web. That is why Kibioctet offers quality services at reasonable prices.
     - image: img/about/2.jpg
-      title: Simplicité
-      text: Ne perdez pas de temps et d'énergie dans votre projet, Kibioctet s'occupe de tout !
+      title: Simplicity
+      text: Don't waste time and energy on your project, Kibioctet takes care of everything!
     - image: img/about/3.jpg
-      title: Personnalisation
-      text: Une prestation adaptée à vos besoins, un site à votre image.
+      title: Personalization
+      text: A service adapted to your needs, a site in your image.
     - image: img/about/4.jpg
-      title: Disponibilité
-      text: Notre équipe est réactive, flexible et toujours à votre écoute. Lorsque vous choississez Kibioctet, vous bénéficiez d'un réel support.
+      title: Availability
+      text: Our team is responsive, flexible and always ready to listen to you. When you choose Kibioctet, you benefit from real support.
   end1: # blank
   end2: # blank
   end3: # blank
 
 news:
-  heading: Les actualités
-  subheading: Les dernières news de Kibioctet
+  heading: News
+  subheading: Last news from Kibioctet
 
 team:
-  heading: L'équipe
-  subheading: Une équipe jeune, dynamique, compétente, flexible et serviable
+  heading: Team
+  subheading: A young, dynamic, competent, flexible and helpful team
   members:
     - name: Victor Losser
-      role: Développeur
+      role: Developer
       img: img/team/1.jpg
       social-buttons:
         - icon: fab fa-linkedin-in
           url: "https://www.linkedin.com/in/victor-losser/"
 
     - name: Vincent Pansera
-      role: Président
+      role: Chairman
       img: img/team/2.jpg
       social-buttons:
         - icon: fab fa-linkedin-in
@@ -106,76 +106,75 @@ team:
           url: "http://www.pansera.fr"
 
     - name: Mathieu Brisset
-      role: Développeur
+      role: Developer
       img: img/team/3.jpg
       social-buttons:
         - icon: fab fa-linkedin-in
           url: "https://www.linkedin.com/in/mathieu-brisset-641abb152/"
 
-  text: "Une équipe soudée à taille humaine, qui donnera toujours son maximum pour vous assurer une prestation de qualité. Une jeunesse qui apporte une réelle compréhension du monde informatique actuel, des compétences issues de la formation et de l'expérience de nos collaborateurs, telles sont les forces de Kibioctet !"
+  text: "A close-knit team on a human scale, which will always do its utmost to ensure you a quality service. A youth that brings a real understanding of the current IT world, the skills resulting from the training and experience of our employees, these are the strengths of Kibioctet!"
 
 services:
-  heading: Nos Services
-  subheading: Votre activité mérite la meilleure des visibilités sur internet.
+  heading: Our services
+  subheading: Your activity deserves the best visibility on the Internet.
   demo: >
-    Obtenir une<br/>démonstration <span id="btn-demo-responsive"><br/></span> gratuite
+    Get a<br/>free <span id="btn-demo-responsive"><br/></span> demonstration
   service:
     - icon: fa fa-desktop
-      heading: Site vitrine
-      text: Adapté à votre budget et à vos besoins, votre site vitrine offrira une excellente visibilité sur le web à votre activité.
+      heading: Showcase site
+      text: Adapted to your budget and your needs, your showcase site will offer excellent visibility on the web to your business.
       arguments:
-        - argument: Personnalisation partielle
-        - argument: Fiable
-        - argument: A votre image
-        - argument: Design moderne
-        - argument: Facile (on s’occupe de tout)
-        - argument: Rapide à mettre en place
-        - argument: Petit budget
-      price: à partir de 500 €
-      special-offer: (-50 % sur votre site si vous parrainez un autre client !)
+        - argument: Partial customization
+        - argument: Reliable
+        - argument: In your image
+        - argument: Modern design
+        - argument: Easy (we take care of everything)
+        - argument: Quick to implement
+        - argument: Low budget
+      price: from 500 €
+      special-offer: (-50% on your site if you refer another customer!)
 
     - icon: fa fa-shopping-cart
-      heading: E-Commerce
-      text: Faites confiance à Kibioctet pour votre future plateforme de vente en ligne.
+      heading: E-Business
+      text: Trust Kibioctet for your future online sales platform.
       arguments:
-        - argument: Personnalisation complète
-        - argument: Fiable
-        - argument: A votre image
-        - argument: Design moderne
-        - argument: Facile (on s’occupe de tout)
-        - argument: Support technique réactif
-      price: à partir de 1 000 €
+        - argument: Full customization
+        - argument: Reliable
+        - argument: In your image
+        - argument: Modern design
+        - argument: Easy (we take care of everything)
+        - argument: Reactive technical support
+      price: from 1 000 €
 
     - icon: fa fa-laptop
-      heading: Sur mesure
-      text: Si vous avez un besoin plus spécifique pour votre site ou application web, notre équipe saura concrétiser toutes vos demandes.
+      heading: Custom-made
+      text: If you have a more specific need for your website or web application, our team will be able to make all your requests come true.
       arguments:
-        - argument: Personnalisation complète
-        - argument: Fiable
-        - argument: A votre image
-        - argument: Design moderne
-        - argument: Facile (on s’occupe de tout)
-        - argument: Support technique réactif
-        - argument: Tout type de module/application
-      price: à partir de 1 000 €
+        - argument: Full customization
+        - argument: Reliable
+        - argument: In your image
+        - argument: Modern design
+        - argument: Easy (we take care of everything)
+        - argument: Reactive technical support
+        - argument: Any type of module/application
+      price: from 1 000 €
 
 clients:
   - img: img/logos/cal-asso-logo.png
     url: "https://cal-asso.fr/"
 
 contact:
-  heading: Nous contacter
-  subheading: Vous souhaitez une démonstration ou des renseignements ?
-  name: Votre nom*
-  name-required: Rentrez votre nom.
-  email: Votre courriel*
-  email-required: Rentrez votre courriel.
-  phone: Votre numéro de téléphone*
-  phone-required: Rentrez votre numéro de téléphone.
-  message: Votre message*
-  message-required: Détaillez votre message.
-  btn: Envoyer le message
+  heading: Contact us
+  name: Your name*
+  name-required: Enter your name.
+  email: Your email address*
+  email-required: Enter your email.
+  phone: Your phone number*
+  phone-required: Enter your phone number.
+  message: Your message*
+  message-required: Detail your message.
+  btn: Send the message
 
   js-url: /contact/contact.php
-  js-success: Votre message a bien été envoyé.
-  js-error: Désolé le serveur ne répond pas. Réessayez plus tard.
+  js-success: Your message has been sent successfully.
+  js-error: Sorry the server does not answer. Try again later.
