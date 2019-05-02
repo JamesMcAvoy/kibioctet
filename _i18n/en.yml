@@ -42,7 +42,8 @@ modal:
   close-string: 'Close'
 
 projects:
-  - title: LThe website of "Les chevrons d'Alsace-Lorraine"
+  - id: 1
+    title: The website of "Les chevrons d'Alsace-Lorraine"
     description: A Wordpress landing-page (the customers wanted to find their references from their old Wordpress sites) composed of several pages and a blog.
     link: https://cal-asso.fr/
     image: img/portfolio/01-full.jpg
@@ -53,7 +54,8 @@ projects:
     citation: It was a pleasure to work with such a dynamic and helpful team.
     person: Éric Vassas, Chairman of Les Chevrons d'Alsace-Lorraine
 
-  - title: SAFE (Survey and Audit Form Engine)
+  - id: 2
+    title: SAFE (Survey and Audit Form Engine)
     description: "An heavy WEB application of audit adapted to the industry, made for a big industrial company. Duration of this project: 10 weeks"
     link: 
     image: img/portfolio/02-full.png

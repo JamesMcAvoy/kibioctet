@@ -155,7 +155,9 @@
                   <h2 class="text-uppercase">{{ project.title }}</h2>
                   <p class="item-intro text-muted">{{ project.description }}</p>
                   <a href="{{project.link}}" target="_blank"><img class="img-fluid d-block mx-auto" src="{{ assets_path }}{{ project.image }}" alt=""></a>
-                  <p class="item-intro">"{{ project.citation }}"<br/><span class="item-intro text-muted">{{ project.person }}</span></p>
+                  {%- if project.citation != nil -%}
+                    <p class="item-intro">"{{ project.citation }}"<br/><span class="item-intro text-muted">{{ project.person }}</span></p>
+                  {%- endif -%}
 
                   <ul class="list-inline">
                     <li>{% t modal.date-string %}<strong>{{ project.date | date: "%B %Y" }}</strong></li>
