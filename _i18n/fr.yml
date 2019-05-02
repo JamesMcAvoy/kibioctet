@@ -53,6 +53,16 @@ projects:
     citation: Ce fut un plaisir de travailler avec une équipe aussi dynamique et serviable.
     person: Éric Vassas, Président des Chevrons d'Alsace-Lorraine
 
+  - title: SAFE (Survey and Audit Form Engine)
+    description: "Une application web lourde d'audit adaptée à l'industrie, réalisé pour une grande société industrielle. Durée de ce projet: 10 semaines"
+    link: 
+    image: img/portfolio/02-full.png
+    thumbnail: img/portfolio/02-thumbnail.png
+    date: Juin 2018
+    client: Entreprise industrielle
+    category: Application WEB
+    citation: 
+    person: 
 #####################
 # Main home content #
 #####################
