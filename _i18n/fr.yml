@@ -63,8 +63,21 @@ projects:
     date: Juin 2018
     client: Entreprise industrielle
     category: Application WEB
-    citation:
+    citation: 
     person: 
+
+  - id: 3
+    title: 'Le blog "Un homme autour du monde"'
+    description: "Le blog de voyages de Victor, qui a été réalisé par lui-même"
+    link: https://unhommeautourdumonde.fr/
+    image: img/portfolio/03-full.png
+    thumbnail: img/portfolio/03-thumbnail.png
+    date: Août 2017
+    client: Victor
+    category: Blog
+    citation: Bonjour Victor, je tiens à te féliciter de toutes ces infos concernant ton expérience aux Açores. C'est vraiment très clair, très bien résumé et tu réponds aux questions importantes qui ne sont pas toujours évoquées dans les guides. Franchement bravo.
+    person: Frédérique Luigi
+
 #####################
 # Main home content #
 #####################

@@ -60,11 +60,24 @@ projects:
     link: 
     image: img/portfolio/02-full.png
     thumbnail: img/portfolio/02-thumbnail.png
-    date: Juin 2018
-    client: Indistrial company
+    date: June 2018
+    client: Industrial company
     category: WEB application
     citation: 
     person: 
+
+  - id: 3
+    title: 'The travel blog "Un homme autour du monde"'
+    description: "The travel blog of Victor, which has been realized by himself"
+    link: https://unhommeautourdumonde.fr/
+    image: img/portfolio/03-full.png
+    thumbnail: img/portfolio/03-thumbnail.png
+    date: August 2017
+    client: Victor
+    category: Blog
+    citation: Hi Victor, I wanted to congratulate you about all the infos about your experience in the Açores. It's very clear, very well summarized and you answer to important questions that are not always in the travel guides. Honestly bravo.
+    person: Frédérique Luigi
+
 #####################
 # Main home content #
 #####################
