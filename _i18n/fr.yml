@@ -50,7 +50,7 @@ projects:
     thumbnail: img/portfolio/01-thumbnail.jpg
     date: Novembre 2018
     client: Les chevrons d'Alsace-Lorraine
-    category: Site Vitrine
+    category: Site vitrine
     citation: Ce fut un plaisir de travailler avec une équipe aussi dynamique et serviable.
     person: Éric Vassas, Président des Chevrons d'Alsace-Lorraine
 
@@ -77,6 +77,18 @@ projects:
     category: Blog
     citation: Bonjour Victor, je tiens à te féliciter de toutes ces infos concernant ton expérience aux Açores. C'est vraiment très clair, très bien résumé et tu réponds aux questions importantes qui ne sont pas toujours évoquées dans les guides. Franchement bravo.
     person: Frédérique Luigi
+
+  - id: 4
+    title: Villa Italiana
+    description: Distributeur en Pologne qui vend des produits conçus pour l'intérieur et la décoration de la maison qui sont faits en céramique, maiolica, porcelaine et lave volcanique provenant de différentes parties de l'Italie.
+    link: http://villaitaliana.pl/
+    image: img/portfolio/04-full.jpg
+    thumbnail: img/portfolio/04-thumbnail.jpg
+    date: Février 2019
+    client: Paolo Bordoni
+    category: Site vitrine
+    citation:
+    person:
 
 #####################
 # Main home content #
