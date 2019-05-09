@@ -13,7 +13,7 @@ function delTree($dir) {
 //Build
 exec('bundle exec jekyll b');
 
-$languages = array('fr', 'en');
+$languages = array('fr', 'en', 'de');
 $path = '_site/';
 
 //Files to delete
