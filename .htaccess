@@ -7,6 +7,9 @@ RewriteRule ^(.*)$ https://www.kibioctet.fr/$1 [R,L]
 <If "%{REQUEST_URI} =~ m#^/en/#">
     ErrorDocument 404 /en/404.html
 </If>
+<ElseIf "%{REQUEST_URI} =~ m#^/de/#">
+    ErrorDocument 404 /de/404.html
+</ElseIf>
 <Else>
     ErrorDocument 404 /404.html
 </Else>

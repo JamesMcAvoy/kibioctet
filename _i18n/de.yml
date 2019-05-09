@@ -1,0 +1,218 @@
+# Meta & divers
+meta:
+  title: Kibioctet
+  description: Webagentur Strassburg Alsace Sarre-Union
+
+cookieconsent:
+  content: Diese Website verwendet Cookies, um sicherzustellen, dass Sie die bestmögliche Browser-Erfahrung erhalten.
+  dismiss: Akzeptieren
+
+# Nav
+nav:
+  brand: <img src="/assets/img/logos/kibioctet.png" class="logo-header" />
+  menu-string: Menü
+  links:
+    - title: Unsere Dienstleistungen
+      url: '/#services'
+    - title: Unsere Werte
+      url: '/#about'
+    - title: Team
+      url: '/#team'
+    - title: Kontakt
+      url: '/#contact'
+
+# Footer
+footer:
+  copyright: © 2019
+  social-buttons:
+  quicklinks:
+    - title: Allgemeine Geschäftsbedingungen
+      url: '/cgu/'
+
+# Portfolio
+portfolio:
+  heading: Portfolio
+  subheading: Hier sind die Projekte, die wir bereits abgeschlossen haben.
+
+modal:
+  date-string: 'Datum: '
+  client-string: 'Kunde: '
+  category-string: 'Kategorie: '
+  close-icon: 'fa fa-times' # do not change
+  close-string: 'Schliessen'
+
+projects:
+  - id: 1
+    title: Die Website von "Les chevrons d'Alsace-Lorraine"
+    description: Eine Wordpress Landing-Page (die Kunden wollten ihre Referenzen von ihren alten Wordpress-Seiten finden), bestehend aus mehreren Seiten und einem Blog.
+    link: https://cal-asso.fr/
+    image: img/portfolio/01-full.jpg
+    thumbnail: img/portfolio/01-thumbnail.jpg
+    date: November 2018
+    client: Les chevrons d'Alsace-Lorraine
+    category: Schaufenster-Website
+    citation: Es war eine Freude, mit einem so dynamischen und hilfsbereiten Team zusammenzuarbeiten.
+    person: Éric Vassas, Vorsitzender von Les Chevrons d'Alsace-Lorraine
+
+  - id: 2
+    title: SAFE (Survey and Audit Form Engine)
+    description: "Eine schwere WEB-Anwendung des Audits, die an die Branche angepasst ist, wurde für ein großes Industrieunternehmen entwickelt. Dauer dieses Projekts: 10 Wochen"
+    link:
+    image: img/portfolio/02-full.jpg
+    thumbnail: img/portfolio/02-thumbnail.jpg
+    date: Juni 2018
+    client: Industrieunternehmen
+    category: WEB-Anwendung
+    citation:
+    person:
+
+  - id: 3
+    title: 'Der Reiseblog "Un homme autour du monde"'
+    description: "Der Reiseblog von Victor, der von ihm selbst realisiert wurde"
+    link: https://unhommeautourdumonde.fr/
+    image: img/portfolio/03-full.jpg
+    thumbnail: img/portfolio/03-thumbnail.jpg
+    date: August 2017
+    client: Victor
+    category: Blog
+    citation: Hallo Victor, ich wollte dir zu all den Infos über deine Erfahrungen in den Azoren gratulieren. Es ist sehr übersichtlich, sehr gut zusammengefasst und Sie beantworten wichtige Fragen, die nicht immer in den Reiseführern stehen. Ehrlich gesagt, bravo.
+    person: Frédérique Luigi
+
+  - id: 4
+    title: Villa Italiana
+    description: Vertriebspartner in Polen, der Produkte für Innenräume und Wohnkultur verkauft, die aus Keramik, Maiolica, Porzellan und vulkanischer Lava aus verschiedenen Teilen Italiens stammen
+    link: http://villaitaliana.pl/
+    image: img/portfolio/04-full.jpg
+    thumbnail: img/portfolio/04-thumbnail.jpg
+    date: Februar 2019
+    client: Paolo Bordoni
+    category: Schaufenster-Website
+    citation:
+    person:
+
+#####################
+# Main home content #
+#####################
+intro:
+  lead-in: "Webagentur Kibioctet mit Sitz in Strassburg"
+  heading: Wir erstellen leistungsstarke Websites für Ihr Unternehmen
+  btn: Mehr erfahren
+
+about:
+  heading: Unsere Werte
+  subheading:
+  timeline:
+    - image: img/about/1.jpg
+      title: Ein erschwinglicher Preis
+      text:  Wir wissen, dass nicht jeder ein unbegrenztes Budget für seine Entwicklung im Web hat. Deshalb bietet Kibioctet qualitativ hochwertige Dienstleistungen zu vernünftigen Preisen an.
+    - image: img/about/2.jpg
+      title: Einfachheit
+      text: Verschwenden Sie keine Zeit und Energie mit Ihrem Projekt, Kibioctet kümmert sich um alles!
+    - image: img/about/3.jpg
+      title: Personalisierung
+      text: Ein auf Ihre Bedürfnisse zugeschnittener Service, eine Seite in Ihrem Bild.
+    - image: img/about/4.jpg
+      title: Verfügbarkeit
+      text: Unser Team ist reaktionsschnell, flexibel und immer bereit, Ihnen zuzuhören. Wenn Sie sich für Kibioctet entscheiden, profitieren Sie von einer echten Unterstützung.
+  end1: # blank
+  end2: # blank
+  end3: # blank
+
+news:
+  heading: News
+  subheading: Letzte Nachrichten von Kibioctet
+
+team:
+  heading: Team
+  subheading: Ein junges, dynamisches, kompetentes, flexibles und hilfsbereites Team
+  members:
+    - name: Victor Losser
+      role: Entwickler
+      img: img/team/1.jpg
+      social-buttons:
+        - icon: fab fa-linkedin-in
+          url: "https://www.linkedin.com/in/victor-losser/"
+
+    - name: Vincent Pansera
+      role: Vorsitzender
+      img: img/team/2.jpg
+      social-buttons:
+        - icon: fab fa-linkedin-in
+          url: "https://www.linkedin.com/in/vincent-pansera/"
+        - icon: fa fa-globe
+          url: "http://www.pansera.fr"
+
+    - name: Mathieu Brisset
+      role: Entwickler
+      img: img/team/3.jpg
+      social-buttons:
+        - icon: fab fa-linkedin-in
+          url: "https://www.linkedin.com/in/mathieu-brisset-641abb152/"
+
+  text: "Ein engmaschiges Team auf menschlicher Ebene, das immer sein Bestes tun wird, um Ihnen einen qualitativ hochwertigen Service zu bieten. Ein Jugendlicher, der ein echtes Verständnis für die aktuelle IT-Welt mitbringt, die daraus resultierenden Fähigkeiten."
+
+services:
+  heading: Unsere Dienstleistungen
+  subheading: Ihre Aktivität verdient die beste Sichtbarkeit im Internet.
+  demo: >
+    Erhalten Sie eine<br/>freie <span id="btn-demo-responsive"><br/></span> Demonstration
+  service:
+    - icon: fa fa-desktop
+      heading: Schaufenster-Website
+      text: Abgestimmt auf Ihr Budget und Ihre Bedürfnisse bietet Ihre Präsentationsseite Ihrem Unternehmen eine ausgezeichnete Sichtbarkeit im Internet.
+      arguments:
+        - argument: Teilweise Anpassung
+        - argument: Zuverlässig
+        - argument: Nach Ihrem Bild
+        - argument: Modernes Design
+        - argument: Einfach (wir kümmern uns um alles)
+        - argument: Schnelle Implementierung
+        - argument: Geringes Budget
+      price: ab 500 €
+      special-offer: (-50% auf Ihrer Website, wenn Sie einen anderen Kunden empfehlen!)
+
+    - icon: fa fa-shopping-cart
+      heading: E-Business
+      text: Vertrauen Sie Kibioctet für Ihre zukünftige Online-Verkaufsplattform.
+      arguments:
+        - argument: Vollständige Anpassung
+        - argument: Zuverlässig
+        - argument: Nach Ihrem Bild
+        - argument: Modernes Design
+        - argument: Einfach (wir kümmern uns um alles)
+        - argument: Reaktiver technischer Support
+      price: ab 1 000 €.
+
+    - icon: fa fa-laptop
+      heading: Massgeschneidert
+      text: Wenn Sie einen spezifischeren Bedarf an Ihrer Website oder Webanwendung haben, kann unser Team alle Ihre Anfragen erfüllen.
+      arguments:
+        - argument: Vollständige Anpassung
+        - argument: Zuverlässig
+        - argument: Nach Ihrem Bild
+        - argument: Modernes Design
+        - argument: Einfach (wir kümmern uns um alles)
+        - argument: Reaktiver technischer Support
+        - argument: Jede Art von Modul/Anwendung
+      price: ab 1 000 €.
+
+clients:
+  - img: img/logos/cal-asso-logo.png
+    url: "https://cal-asso.fr/"
+
+contact:
+  heading: Kontaktieren Sie uns
+  subheading: Möchten Sie eine Demonstration oder Information?
+  name: Ihr Name*
+  name-required: Geben Sie Ihre Namen ein.
+  email: Ihre E-Mail-Adresse*
+  email-required: Geben Sie Ihre E-Mail-Adresse ein.
+  phone: Ihre Telefonnummer*
+  phone-required: Geben Sie Ihre Telefonnummer ein.
+  message: Ihre Nachricht*
+  message-required: Detaillieren Sie Ihre Nachricht.
+  btn: Senden der Nachricht
+
+  js-url: /contact/contact.php
+  js-success: Ihre Nachricht wurde erfolgreich gesendet.
+  js-error: Es tut mir leid, dass der Server nicht antwortet. Versuchen Sie es später noch einmal.

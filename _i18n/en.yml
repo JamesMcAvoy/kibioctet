@@ -202,6 +202,7 @@ clients:
 
 contact:
   heading: Contact us
+  subheading: Would you like a demonstration or information?
   name: Your name*
   name-required: Enter your name.
   email: Your email address*
