@@ -168,8 +168,8 @@ services:
         - argument: Easy (we take care of everything)
         - argument: Quick to implement
         - argument: Low budget
-      price: from 500 €
-      special-offer: (-50% on your site if you refer another customer!)
+      price: from 950 €
+      #special-offer: (-50% on your site if you refer another customer!)
 
     - icon: fa fa-shopping-cart
       heading: E-Business
@@ -181,7 +181,7 @@ services:
         - argument: Modern design
         - argument: Easy (we take care of everything)
         - argument: Reactive technical support
-      price: from 1 000 €
+      price: from 1 450 €
 
     - icon: fa fa-laptop
       heading: Custom-made
@@ -194,7 +194,7 @@ services:
         - argument: Easy (we take care of everything)
         - argument: Reactive technical support
         - argument: Any type of module/application
-      price: from 1 000 €
+      price: from 1 950 €
 
 clients:
   - img: img/logos/cal-asso-logo.png

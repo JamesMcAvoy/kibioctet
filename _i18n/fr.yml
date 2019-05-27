@@ -168,8 +168,8 @@ services:
         - argument: Facile (on s’occupe de tout)
         - argument: Rapide à mettre en place
         - argument: Petit budget
-      price: à partir de 500 €
-      special-offer: (-50 % sur votre site si vous parrainez un autre client !)
+      price: à partir de 950 €
+      #special-offer: (-50 % sur votre site si vous parrainez un autre client !)
 
     - icon: fa fa-shopping-cart
       heading: E-Commerce
@@ -181,7 +181,7 @@ services:
         - argument: Design moderne
         - argument: Facile (on s’occupe de tout)
         - argument: Support technique réactif
-      price: à partir de 1 000 €
+      price: à partir de 1 450 €
 
     - icon: fa fa-laptop
       heading: Sur mesure
@@ -194,7 +194,7 @@ services:
         - argument: Facile (on s’occupe de tout)
         - argument: Support technique réactif
         - argument: Tout type de module/application
-      price: à partir de 1 000 €
+      price: à partir de 1 950 €
 
 clients:
   - img: img/logos/cal-asso-logo.png

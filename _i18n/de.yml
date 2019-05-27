@@ -168,8 +168,8 @@ services:
         - argument: Einfach (wir kümmern uns um alles)
         - argument: Schnelle Implementierung
         - argument: Geringes Budget
-      price: ab 500 €
-      special-offer: (-50% auf Ihrer Website, wenn Sie einen anderen Kunden empfehlen!)
+      price: ab 950 €
+      #special-offer: (-50% auf Ihrer Website, wenn Sie einen anderen Kunden empfehlen!)
 
     - icon: fa fa-shopping-cart
       heading: E-Business
@@ -181,7 +181,7 @@ services:
         - argument: Modernes Design
         - argument: Einfach (wir kümmern uns um alles)
         - argument: Reaktiver technischer Support
-      price: ab 1 000 €.
+      price: ab 1 450 €.
 
     - icon: fa fa-laptop
       heading: Massgeschneidert
@@ -194,7 +194,7 @@ services:
         - argument: Einfach (wir kümmern uns um alles)
         - argument: Reaktiver technischer Support
         - argument: Jede Art von Modul/Anwendung
-      price: ab 1 000 €.
+      price: ab 1 950 €.
 
 clients:
   - img: img/logos/cal-asso-logo.png
