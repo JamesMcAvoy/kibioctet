@@ -58,8 +58,8 @@ projects:
     title: Die Website von "Les chevrons d'Alsace-Lorraine"
     description: Eine Wordpress Landing-Page (die Kunden wollten ihre Referenzen von ihren alten Wordpress-Seiten finden), bestehend aus mehreren Seiten und einem Blog.
     link: https://cal-asso.fr/
-    image: img/portfolio/01-full.jpg
-    thumbnail: img/portfolio/01-thumbnail.jpg
+    image: img/portfolio/02-full.jpg
+    thumbnail: img/portfolio/02-thumbnail.jpg
     date: November 2018
     client: Les chevrons d'Alsace-Lorraine
     category: Schaufenster-Website
