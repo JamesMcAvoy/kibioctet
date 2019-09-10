@@ -43,6 +43,18 @@ modal:
 
 projects:
   - id: 1
+    title: RJHOME
+    description: Die Website von "RJHOME"
+    link: https://rjhome.fr/
+    image: img/portfolio/01-full.jpg
+    thumbnail: img/portfolio/01-thumbnail.jpg
+    date: September 2019
+    client: RJHOME
+    category: Schaufenster-Website
+    citation:
+    person:
+
+  - id: 2
     title: Die Website von "Les chevrons d'Alsace-Lorraine"
     description: Eine Wordpress Landing-Page (die Kunden wollten ihre Referenzen von ihren alten Wordpress-Seiten finden), bestehend aus mehreren Seiten und einem Blog.
     link: https://cal-asso.fr/
@@ -54,7 +66,7 @@ projects:
     citation: Es war eine Freude, mit einem so dynamischen und hilfsbereiten Team zusammenzuarbeiten.
     person: Éric Vassas, Vorsitzender von Les Chevrons d'Alsace-Lorraine
 
-  - id: 2
+  - id: 3
     title: SAFE (Survey and Audit Form Engine)
     description: "Eine schwere WEB-Anwendung des Audits, die an die Branche angepasst ist, wurde für ein großes Industrieunternehmen entwickelt. Dauer dieses Projekts: 10 Wochen"
     link:
@@ -62,11 +74,11 @@ projects:
     thumbnail: img/portfolio/02-thumbnail.jpg
     date: Juni 2018
     client: Industrieunternehmen
-    category: WEB-Anwendung
+    category: Web-Anwendung
     citation:
     person:
 
-  - id: 3
+  - id: 4
     title: 'Der Reiseblog "Un homme autour du monde"'
     description: "Der Reiseblog von Victor, der von ihm selbst realisiert wurde"
     link: https://unhommeautourdumonde.fr/
@@ -77,18 +89,6 @@ projects:
     category: Blog
     citation: Hallo Victor, ich wollte dir zu all den Infos über deine Erfahrungen in den Azoren gratulieren. Es ist sehr übersichtlich, sehr gut zusammengefasst und Sie beantworten wichtige Fragen, die nicht immer in den Reiseführern stehen. Ehrlich gesagt, bravo.
     person: Frédérique Luigi
-
-  - id: 4
-    title: Villa Italiana
-    description: Vertriebspartner in Polen, der Produkte für Innenräume und Wohnkultur verkauft, die aus Keramik, Maiolica, Porzellan und vulkanischer Lava aus verschiedenen Teilen Italiens stammen
-    link: http://villaitaliana.pl/
-    image: img/portfolio/04-full.jpg
-    thumbnail: img/portfolio/04-thumbnail.jpg
-    date: Februar 2019
-    client: Paolo Bordoni
-    category: Schaufenster-Website
-    citation:
-    person:
 
 #####################
 # Main home content #

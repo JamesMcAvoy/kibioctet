@@ -43,6 +43,18 @@ modal:
 
 projects:
   - id: 1
+    title: RJHOME
+    description: The website of "RJHOME"
+    link: https://rjhome.fr/
+    image: img/portfolio/01-full.jpg
+    thumbnail: img/portfolio/01-thumbnail.jpg
+    date: September 2019
+    client: RJHOME
+    category: Showcase website
+    citation:
+    person:
+
+  - id: 2
     title: The website of "Les chevrons d'Alsace-Lorraine"
     description: A Wordpress landing-page (the customers wanted to find their references from their old Wordpress sites) composed of several pages and a blog.
     link: https://cal-asso.fr/
@@ -54,7 +66,7 @@ projects:
     citation: It was a pleasure to work with such a dynamic and helpful team.
     person: Éric Vassas, Chairman of Les Chevrons d'Alsace-Lorraine
 
-  - id: 2
+  - id: 3
     title: SAFE (Survey and Audit Form Engine)
     description: "An heavy WEB application of audit adapted to the industry, made for a big industrial company. Duration of this project: 10 weeks"
     link:
@@ -62,11 +74,11 @@ projects:
     thumbnail: img/portfolio/02-thumbnail.jpg
     date: June 2018
     client: Industrial company
-    category: WEB application
+    category: Web application
     citation:
     person:
 
-  - id: 3
+  - id: 4
     title: 'The travel blog "Un homme autour du monde"'
     description: "The travel blog of Victor, which has been realized by himself"
     link: https://unhommeautourdumonde.fr/
@@ -77,18 +89,6 @@ projects:
     category: Blog
     citation: Hi Victor, I wanted to congratulate you about all the infos about your experience in the Açores. It's very clear, very well summarized and you answer to important questions that are not always in the travel guides. Honestly bravo.
     person: Frédérique Luigi
-
-  - id: 4
-    title: Villa Italiana
-    description: Distributor in Poland selling products designed for interiors and home decor that are made of ceramics, maiolica, porcelain and volcanic lava coming from different parts of Italy
-    link: http://villaitaliana.pl/
-    image: img/portfolio/04-full.jpg
-    thumbnail: img/portfolio/04-thumbnail.jpg
-    date: February 2019
-    client: Paolo Bordoni
-    category: Showcase website
-    citation:
-    person:
 
 #####################
 # Main home content #
