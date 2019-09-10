@@ -70,8 +70,8 @@ projects:
     title: SAFE (Survey and Audit Form Engine)
     description: "Eine schwere WEB-Anwendung des Audits, die an die Branche angepasst ist, wurde für ein großes Industrieunternehmen entwickelt. Dauer dieses Projekts: 10 Wochen"
     link:
-    image: img/portfolio/02-full.jpg
-    thumbnail: img/portfolio/02-thumbnail.jpg
+    image: img/portfolio/03-full.jpg
+    thumbnail: img/portfolio/03-thumbnail.jpg
     date: Juni 2018
     client: Industrieunternehmen
     category: Web-Anwendung
@@ -82,8 +82,8 @@ projects:
     title: 'Der Reiseblog "Un homme autour du monde"'
     description: "Der Reiseblog von Victor, der von ihm selbst realisiert wurde"
     link: https://unhommeautourdumonde.fr/
-    image: img/portfolio/03-full.jpg
-    thumbnail: img/portfolio/03-thumbnail.jpg
+    image: img/portfolio/04-full.jpg
+    thumbnail: img/portfolio/04-thumbnail.jpg
     date: August 2017
     client: Victor
     category: Blog
